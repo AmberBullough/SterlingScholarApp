@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9923CF21FBDED1500BF76A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */; };
+		D9923CF41FBDED1500BF76A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923CF31FBDED1500BF76A0 /* ViewController.swift */; };
+		D9923CF71FBDED1500BF76A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9923CF51FBDED1500BF76A0 /* Main.storyboard */; };
+		D9923CF91FBDED1500BF76A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9923CF81FBDED1500BF76A0 /* Assets.xcassets */; };
+		D9923CFC1FBDED1500BF76A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9923CFA1FBDED1500BF76A0 /* LaunchScreen.storyboard */; };
+		D9923D071FBDED1500BF76A0 /* SterlingScholarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923D061FBDED1500BF76A0 /* SterlingScholarAppTests.swift */; };
+		D9923D121FBDED1500BF76A0 /* SterlingScholarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923D111FBDED1500BF76A0 /* SterlingScholarAppUITests.swift */; };
+		D9923D241FBDEF1D00BF76A0 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923D231FBDEF1D00BF76A0 /* ColorTools.swift */; };
+		D9923D261FBDF1D700BF76A0 /* AlphabetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923D251FBDF1D700BF76A0 /* AlphabetViewController.swift */; };
+		D9923D281FBDF27700BF76A0 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923D271FBDF27700BF76A0 /* NumbersViewController.swift */; };
+		D9923D2A1FBDF2EE00BF76A0 /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923D291FBDF2EE00BF76A0 /* GreetingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9923D031FBDED1500BF76A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9923CE61FBDED1500BF76A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9923CED1FBDED1500BF76A0;
+			remoteInfo = SterlingScholarApp;
+		};
+		D9923D0E1FBDED1500BF76A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9923CE61FBDED1500BF76A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9923CED1FBDED1500BF76A0;
+			remoteInfo = SterlingScholarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9923CEE1FBDED1500BF76A0 /* SterlingScholarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SterlingScholarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9923CF31FBDED1500BF76A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9923CF61FBDED1500BF76A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9923CF81FBDED1500BF76A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9923CFB1FBDED1500BF76A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9923CFD1FBDED1500BF76A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9923D021FBDED1500BF76A0 /* SterlingScholarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SterlingScholarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9923D061FBDED1500BF76A0 /* SterlingScholarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SterlingScholarAppTests.swift; sourceTree = "<group>"; };
+		D9923D081FBDED1500BF76A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9923D0D1FBDED1500BF76A0 /* SterlingScholarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SterlingScholarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9923D111FBDED1500BF76A0 /* SterlingScholarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SterlingScholarAppUITests.swift; sourceTree = "<group>"; };
+		D9923D131FBDED1500BF76A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9923D231FBDEF1D00BF76A0 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
+		D9923D251FBDF1D700BF76A0 /* AlphabetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetViewController.swift; sourceTree = "<group>"; };
+		D9923D271FBDF27700BF76A0 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		D9923D291FBDF2EE00BF76A0 /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9923CEB1FBDED1500BF76A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9923CFF1FBDED1500BF76A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9923D0A1FBDED1500BF76A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9923CE51FBDED1500BF76A0 = {
+			isa = PBXGroup;
+			children = (
+				D9923CF01FBDED1500BF76A0 /* SterlingScholarApp */,
+				D9923D051FBDED1500BF76A0 /* SterlingScholarAppTests */,
+				D9923D101FBDED1500BF76A0 /* SterlingScholarAppUITests */,
+				D9923CEF1FBDED1500BF76A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9923CEF1FBDED1500BF76A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9923CEE1FBDED1500BF76A0 /* SterlingScholarApp.app */,
+				D9923D021FBDED1500BF76A0 /* SterlingScholarAppTests.xctest */,
+				D9923D0D1FBDED1500BF76A0 /* SterlingScholarAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9923CF01FBDED1500BF76A0 /* SterlingScholarApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9923D221FBDEF0E00BF76A0 /* Model */,
+				D9923D211FBDED5D00BF76A0 /* Rescources */,
+				D9923D201FBDED5000BF76A0 /* View */,
+				D9923D1F1FBDED4000BF76A0 /* Controllers */,
+			);
+			path = SterlingScholarApp;
+			sourceTree = "<group>";
+		};
+		D9923D051FBDED1500BF76A0 /* SterlingScholarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9923D061FBDED1500BF76A0 /* SterlingScholarAppTests.swift */,
+				D9923D081FBDED1500BF76A0 /* Info.plist */,
+			);
+			path = SterlingScholarAppTests;
+			sourceTree = "<group>";
+		};
+		D9923D101FBDED1500BF76A0 /* SterlingScholarAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9923D111FBDED1500BF76A0 /* SterlingScholarAppUITests.swift */,
+				D9923D131FBDED1500BF76A0 /* Info.plist */,
+			);
+			path = SterlingScholarAppUITests;
+			sourceTree = "<group>";
+		};
+		D9923D1F1FBDED4000BF76A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */,
+				D9923D251FBDF1D700BF76A0 /* AlphabetViewController.swift */,
+				D9923CF31FBDED1500BF76A0 /* ViewController.swift */,
+				D9923D271FBDF27700BF76A0 /* NumbersViewController.swift */,
+				D9923D291FBDF2EE00BF76A0 /* GreetingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9923D201FBDED5000BF76A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9923CF51FBDED1500BF76A0 /* Main.storyboard */,
+				D9923CFA1FBDED1500BF76A0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9923D211FBDED5D00BF76A0 /* Rescources */ = {
+			isa = PBXGroup;
+			children = (
+				D9923CF81FBDED1500BF76A0 /* Assets.xcassets */,
+				D9923CFD1FBDED1500BF76A0 /* Info.plist */,
+			);
+			path = Rescources;
+			sourceTree = "<group>";
+		};
+		D9923D221FBDEF0E00BF76A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9923D231FBDEF1D00BF76A0 /* ColorTools.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9923CED1FBDED1500BF76A0 /* SterlingScholarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9923D161FBDED1500BF76A0 /* Build configuration list for PBXNativeTarget "SterlingScholarApp" */;
+			buildPhases = (
+				D9923CEA1FBDED1500BF76A0 /* Sources */,
+				D9923CEB1FBDED1500BF76A0 /* Frameworks */,
+				D9923CEC1FBDED1500BF76A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SterlingScholarApp;
+			productName = SterlingScholarApp;
+			productReference = D9923CEE1FBDED1500BF76A0 /* SterlingScholarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9923D011FBDED1500BF76A0 /* SterlingScholarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9923D191FBDED1500BF76A0 /* Build configuration list for PBXNativeTarget "SterlingScholarAppTests" */;
+			buildPhases = (
+				D9923CFE1FBDED1500BF76A0 /* Sources */,
+				D9923CFF1FBDED1500BF76A0 /* Frameworks */,
+				D9923D001FBDED1500BF76A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9923D041FBDED1500BF76A0 /* PBXTargetDependency */,
+			);
+			name = SterlingScholarAppTests;
+			productName = SterlingScholarAppTests;
+			productReference = D9923D021FBDED1500BF76A0 /* SterlingScholarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9923D0C1FBDED1500BF76A0 /* SterlingScholarAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9923D1C1FBDED1500BF76A0 /* Build configuration list for PBXNativeTarget "SterlingScholarAppUITests" */;
+			buildPhases = (
+				D9923D091FBDED1500BF76A0 /* Sources */,
+				D9923D0A1FBDED1500BF76A0 /* Frameworks */,
+				D9923D0B1FBDED1500BF76A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9923D0F1FBDED1500BF76A0 /* PBXTargetDependency */,
+			);
+			name = SterlingScholarAppUITests;
+			productName = SterlingScholarAppUITests;
+			productReference = D9923D0D1FBDED1500BF76A0 /* SterlingScholarAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9923CE61FBDED1500BF76A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = CTEC;
+				TargetAttributes = {
+					D9923CED1FBDED1500BF76A0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D9923D011FBDED1500BF76A0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9923CED1FBDED1500BF76A0;
+					};
+					D9923D0C1FBDED1500BF76A0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9923CED1FBDED1500BF76A0;
+					};
+				};
+			};
+			buildConfigurationList = D9923CE91FBDED1500BF76A0 /* Build configuration list for PBXProject "SterlingScholarApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9923CE51FBDED1500BF76A0;
+			productRefGroup = D9923CEF1FBDED1500BF76A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9923CED1FBDED1500BF76A0 /* SterlingScholarApp */,
+				D9923D011FBDED1500BF76A0 /* SterlingScholarAppTests */,
+				D9923D0C1FBDED1500BF76A0 /* SterlingScholarAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9923CEC1FBDED1500BF76A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9923CFC1FBDED1500BF76A0 /* LaunchScreen.storyboard in Resources */,
+				D9923CF91FBDED1500BF76A0 /* Assets.xcassets in Resources */,
+				D9923CF71FBDED1500BF76A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9923D001FBDED1500BF76A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9923D0B1FBDED1500BF76A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9923CEA1FBDED1500BF76A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9923CF41FBDED1500BF76A0 /* ViewController.swift in Sources */,
+				D9923D2A1FBDF2EE00BF76A0 /* GreetingsViewController.swift in Sources */,
+				D9923D281FBDF27700BF76A0 /* NumbersViewController.swift in Sources */,
+				D9923D241FBDEF1D00BF76A0 /* ColorTools.swift in Sources */,
+				D9923CF21FBDED1500BF76A0 /* AppDelegate.swift in Sources */,
+				D9923D261FBDF1D700BF76A0 /* AlphabetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9923CFE1FBDED1500BF76A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9923D071FBDED1500BF76A0 /* SterlingScholarAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9923D091FBDED1500BF76A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9923D121FBDED1500BF76A0 /* SterlingScholarAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9923D041FBDED1500BF76A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9923CED1FBDED1500BF76A0 /* SterlingScholarApp */;
+			targetProxy = D9923D031FBDED1500BF76A0 /* PBXContainerItemProxy */;
+		};
+		D9923D0F1FBDED1500BF76A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9923CED1FBDED1500BF76A0 /* SterlingScholarApp */;
+			targetProxy = D9923D0E1FBDED1500BF76A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9923CF51FBDED1500BF76A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9923CF61FBDED1500BF76A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9923CFA1FBDED1500BF76A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9923CFB1FBDED1500BF76A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9923D141FBDED1500BF76A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9923D151FBDED1500BF76A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9923D171FBDED1500BF76A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SterlingScholarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.SterlingScholarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9923D181FBDED1500BF76A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SterlingScholarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.SterlingScholarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9923D1A1FBDED1500BF76A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SterlingScholarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.SterlingScholarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SterlingScholarApp.app/SterlingScholarApp";
+			};
+			name = Debug;
+		};
+		D9923D1B1FBDED1500BF76A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SterlingScholarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.SterlingScholarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SterlingScholarApp.app/SterlingScholarApp";
+			};
+			name = Release;
+		};
+		D9923D1D1FBDED1500BF76A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SterlingScholarAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.SterlingScholarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SterlingScholarApp;
+			};
+			name = Debug;
+		};
+		D9923D1E1FBDED1500BF76A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SterlingScholarAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.SterlingScholarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SterlingScholarApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9923CE91FBDED1500BF76A0 /* Build configuration list for PBXProject "SterlingScholarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9923D141FBDED1500BF76A0 /* Debug */,
+				D9923D151FBDED1500BF76A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9923D161FBDED1500BF76A0 /* Build configuration list for PBXNativeTarget "SterlingScholarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9923D171FBDED1500BF76A0 /* Debug */,
+				D9923D181FBDED1500BF76A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9923D191FBDED1500BF76A0 /* Build configuration list for PBXNativeTarget "SterlingScholarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9923D1A1FBDED1500BF76A0 /* Debug */,
+				D9923D1B1FBDED1500BF76A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9923D1C1FBDED1500BF76A0 /* Build configuration list for PBXNativeTarget "SterlingScholarAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9923D1D1FBDED1500BF76A0 /* Debug */,
+				D9923D1E1FBDED1500BF76A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9923CE61FBDED1500BF76A0 /* Project object */;
+}
