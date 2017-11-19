@@ -10,5 +10,5 @@ import UIKit
 
 class NumbersViewController: UIViewController
 {
-    
+    lazy var colorTool : ColorTools = ColorTools()
 }

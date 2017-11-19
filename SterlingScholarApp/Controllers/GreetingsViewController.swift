@@ -10,5 +10,7 @@ import UIKit
 
 class GreetingsViewController: UIViewController
 {
+    lazy var colorTool : ColorTools = ColorTools()
+    
     
 }
