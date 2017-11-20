@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		D94D7EA41FBF404400A24966 /* AnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94D7EA31FBF404400A24966 /* AnimalsViewController.swift */; };
+=======
+		2018C76A1FC241B100BF87ED /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018C7691FC241B100BF87ED /* FoodViewController.swift */; };
+		2018C76C1FC2422E00BF87ED /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018C76B1FC2422E00BF87ED /* AnimalViewController.swift */; };
+		2018C76E1FC2428D00BF87ED /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018C76D1FC2428D00BF87ED /* PeopleViewController.swift */; };
+>>>>>>> 077c949d6475684e86c93f9bfb87e9e04f5ba7eb
 		D9923CF21FBDED1500BF76A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */; };
 		D9923CF41FBDED1500BF76A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923CF31FBDED1500BF76A0 /* ViewController.swift */; };
 		D9923CF71FBDED1500BF76A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9923CF51FBDED1500BF76A0 /* Main.storyboard */; };
@@ -39,7 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		D94D7EA31FBF404400A24966 /* AnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsViewController.swift; sourceTree = "<group>"; };
+=======
+		2018C7691FC241B100BF87ED /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		2018C76B1FC2422E00BF87ED /* AnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		2018C76D1FC2428D00BF87ED /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 077c949d6475684e86c93f9bfb87e9e04f5ba7eb
 		D9923CEE1FBDED1500BF76A0 /* SterlingScholarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SterlingScholarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9923CF31FBDED1500BF76A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */,
+				2018C7691FC241B100BF87ED /* FoodViewController.swift */,
+				2018C76B1FC2422E00BF87ED /* AnimalViewController.swift */,
+				2018C76D1FC2428D00BF87ED /* PeopleViewController.swift */,
 				D9923D251FBDF1D700BF76A0 /* AlphabetViewController.swift */,
 				D9923CF31FBDED1500BF76A0 /* ViewController.swift */,
 				D9923D271FBDF27700BF76A0 /* NumbersViewController.swift */,
@@ -307,11 +322,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9923CF41FBDED1500BF76A0 /* ViewController.swift in Sources */,
+				2018C76A1FC241B100BF87ED /* FoodViewController.swift in Sources */,
 				D9923D2A1FBDF2EE00BF76A0 /* GreetingsViewController.swift in Sources */,
 				D9923D281FBDF27700BF76A0 /* NumbersViewController.swift in Sources */,
 				D94D7EA41FBF404400A24966 /* AnimalsViewController.swift in Sources */,
 				D9923D241FBDEF1D00BF76A0 /* ColorTools.swift in Sources */,
+				2018C76E1FC2428D00BF87ED /* PeopleViewController.swift in Sources */,
 				D9923CF21FBDED1500BF76A0 /* AppDelegate.swift in Sources */,
+				2018C76C1FC2422E00BF87ED /* AnimalViewController.swift in Sources */,
 				D9923D261FBDF1D700BF76A0 /* AlphabetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
