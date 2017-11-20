@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D94D7EA41FBF404400A24966 /* AnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94D7EA31FBF404400A24966 /* AnimalsViewController.swift */; };
 		D9923CF21FBDED1500BF76A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */; };
 		D9923CF41FBDED1500BF76A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9923CF31FBDED1500BF76A0 /* ViewController.swift */; };
 		D9923CF71FBDED1500BF76A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9923CF51FBDED1500BF76A0 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D94D7EA31FBF404400A24966 /* AnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsViewController.swift; sourceTree = "<group>"; };
 		D9923CEE1FBDED1500BF76A0 /* SterlingScholarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SterlingScholarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9923CF11FBDED1500BF76A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9923CF31FBDED1500BF76A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				D9923CF31FBDED1500BF76A0 /* ViewController.swift */,
 				D9923D271FBDF27700BF76A0 /* NumbersViewController.swift */,
 				D9923D291FBDF2EE00BF76A0 /* GreetingsViewController.swift */,
+				D94D7EA31FBF404400A24966 /* AnimalsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				D9923CF41FBDED1500BF76A0 /* ViewController.swift in Sources */,
 				D9923D2A1FBDF2EE00BF76A0 /* GreetingsViewController.swift in Sources */,
 				D9923D281FBDF27700BF76A0 /* NumbersViewController.swift in Sources */,
+				D94D7EA41FBF404400A24966 /* AnimalsViewController.swift in Sources */,
 				D9923D241FBDEF1D00BF76A0 /* ColorTools.swift in Sources */,
 				D9923CF21FBDED1500BF76A0 /* AppDelegate.swift in Sources */,
 				D9923D261FBDF1D700BF76A0 /* AlphabetViewController.swift in Sources */,
