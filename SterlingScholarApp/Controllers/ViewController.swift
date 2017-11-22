@@ -12,7 +12,12 @@ class ViewController: UIViewController
 {
     lazy var colorTool : ColorTools = ColorTools()
     
-   
+    @IBOutlet weak var AlphabetButton: UIButton!
+    @IBOutlet weak var NumberButton: UIButton!
+    @IBOutlet weak var GreetingsButton: UIButton!
+    @IBOutlet weak var PeopleButton: UIButton!
+    @IBOutlet weak var AnimalsButton: UIButton!
+    
     
     override func viewDidLoad()
     {
